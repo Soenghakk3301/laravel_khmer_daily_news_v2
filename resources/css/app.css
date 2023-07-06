@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Enchanted Land";
+    src: local("Enchanted Land"),
+        url(./public/src/fonts/Enchanted\ Land.otf) format("otf");
+}
+
+.font-title {
+    font-family: "Enchanted Land", Arial, Helvetica, sans-serif;
+}
+
+/* ==  Hide Scrollbar */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Hid scrollber for any browser */
+.no-scrollbar::-moz-scrollbar {
+    display: none;
+}
+
+.no-scrollbar::-o-scrollbar {
+    display: none;
+}
+
+.no-scrollbar::-ms-scrollbar {
+    display: none;
+}
+
+.no-scrollbar::-scrollbar {
+    display: none;
+}
